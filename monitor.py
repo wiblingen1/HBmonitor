@@ -646,7 +646,7 @@ def process_message(_bmessage):
                       f.write("<table style=\"width:100%; font: 10pt arial, sans-serif\">\n")
                       f.write("<TR style=\" height: 32px;font: 10pt arial, sans-serif; background-color:#9dc209; color:black\"><TH>Date</TH><TH>Time</TH><TH>Callsign (DMR-Id)</TH><TH>Name</TH><TH>TG#</TH><TH>TG Name</TH><TH>TX (s)</TH><TH>Slot</TH><TH>System</TH></TR>\n")
                       with open(LOG_PATH+"lastheard.log", "r") as textfile:
-                          for row in islice(reversed(list(csv.reader(textfile))),100):
+                          for row in islice(reversed(list(csv.reader(textfile))),200):
                             duration=row[1]
                             dur=str(int(float(duration.strip())))
                             if row[10] not in my_list:
