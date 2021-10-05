@@ -71,3 +71,24 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 
 ---
+
+After update distribution of Linux jinja2 to version 3.x you can find problem with run HBMonitor with error:
+
+     ValueError: The 'monitor' package was not installed in a way that PackageLoader understands.
+
+
+You must uninstall jinja2 and reinstalling with this version Jinja2==2.11.3
+
+    pip3 uninstall jinja2
+
+and
+
+    pip3 install Jinja2==2.11.3
+
+
+---
+
+
+
+
+
