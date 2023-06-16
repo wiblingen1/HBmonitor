@@ -1,5 +1,10 @@
 
 
+**HBMonitor no longer developing**
+
+**Try to use more updated version by OA4DOA: https://github.com/yuvelq/FDMR-Monitor**
+
+
 **HBmonitor is a "web dashboard" for HBlink by N0MJS.**
 
 **New version of HBMonitor V2 (2021):**
